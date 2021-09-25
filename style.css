@@ -6,14 +6,33 @@
 
 }
 
-.h3 {
+.searchEntry {background-color: yellow;
+color: red;
+float: right;
+font-size: 18px;} /*for Jason*/
 
-}
+.searchEntry:hover {cursor: pointer;
+font-size: 20px;} /* for Jason*/
 
-.p {
+.searchParameter {color: blue;
+background-color: lightgreen;
+float:inline-end;
+width: 400px;
+font-size: 20px;} /* for Jason*/
 
-}
+.searchParameter:hover {color: rgb(30, 30, 34);
+  background-color: gray;
+  float:inline-end;
+  width: 400px;
+  font-size: 24px;} /* for Jason*/
 
+  #boxOfDVDsDrama{background-color: lightpink;} /* for Jason*/
+  #boxOfDVDsFamily{background-color: lightyellow;} /* for Jason*/
+  #boxOfDVDsThriller{background-color: lime;} /* for Jason*/
+  #boxOfDVDsComedy{background-color: lightgray;} /* for Jason*/
+  #boxOfDVDsAction{background-color: lemonchiffon;} /* for Jason*/
+
+/* I do not use following 3 ids in final version but I used them earlier
 #parTag1 { font-size: 18px;
     height: 60px; 
     background-color: lightgrey;
@@ -33,14 +52,10 @@
     margin: 10px;
     text-align: right;
 
-}
+} */
 
 .hoover { 
     box-shadow: gray;
-}
-
-.btn {
-
 }
 
 #input2 {display: inline-block;
@@ -64,7 +79,7 @@ background-blend-mode: red;
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
-}
+} /* for Jason */
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -72,38 +87,15 @@ background-blend-mode: red;
   font-size: 25px;
   color: #818181;
   display: block;
-}
+} /*for Jason*/
 
 .sidenav a:hover {
   color: #f1f1f1;
-}
+} /* for Jason*/
 
 .main {
   margin-left: 160px; /* Same as the width of the sidenav */
-  font-size: 14px; /* Increased text to enable scrolling */
+  font-size: 14px; 
   padding: 0px 10px;
-}
-
-.yearEntry{float:right;
-  font-size:18px}
-
-
-.animation-timing-fuction {
-
-}
-
-.background-position {
-}
-
-.box-sizing {
-
-}
-
-.display {
-
-}
-
-.text-decoration {
-
-}
+} /* for Jason*/
 © 2021 GitHub, Inc.
