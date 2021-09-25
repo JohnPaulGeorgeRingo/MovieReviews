@@ -74,6 +74,17 @@ function getApiDataImdb(event) {
               var movieName1 = document.createElement('p');
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsDrama').appendChild(movieName1);
+              // nine lines below were created to display poster of the moview. they point to the right poster URL. they do not display poster correctly because there should be a time delay for a poster to download correctly 
+              //var moviePoster = document.createElement('a');
+              // moviePoster.setAttribute('href', 'img.omdbapi.com');
+              // moviePoster.setAttribute('id', 'dramaPoster');
+              // var imagePoster = document.createElement('img');
+              // imagePoster.setAttribute('src', requestPosterOmdb);
+              // moviePoster.setAttribute('width', '50px');
+              // moviePoster.appendChild(imagePoster)
+              // document.getElementById('boxOfDVDsDrama').appendChild(moviePoster);
+              // console.log('i ' + i + 'URL ' + requestURLOmdb + ' ' + 'poster ' + requestPosterOmdb)
+
               var movieData = document.createElement('p');
               movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
               document.getElementById('boxOfDVDsDrama').appendChild(movieData)
