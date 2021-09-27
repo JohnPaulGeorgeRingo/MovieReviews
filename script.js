@@ -74,19 +74,19 @@ function getApiDataImdb(event) {
               var movieName1 = document.createElement('p');
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsDrama').appendChild(movieName1);
-              // nine lines below were created to display poster of the moview. they point to the right poster URL. they do not display poster correctly because there should be a time delay for a poster to download correctly 
-              //var moviePoster = document.createElement('a');
-              // moviePoster.setAttribute('href', 'img.omdbapi.com');
-              // moviePoster.setAttribute('id', 'dramaPoster');
-              // var imagePoster = document.createElement('img');
-              // imagePoster.setAttribute('src', requestPosterOmdb);
-              // moviePoster.setAttribute('width', '50px');
-              // moviePoster.appendChild(imagePoster)
-              // document.getElementById('boxOfDVDsDrama').appendChild(moviePoster);
-              // console.log('i ' + i + 'URL ' + requestURLOmdb + ' ' + 'poster ' + requestPosterOmdb)
+              // nine lines below were created to display poster of the moview. they point to the right poster URL. they do not display poster correctly  
+             // var moviePoster = document.createElement('a');
+             //  moviePoster.setAttribute('href', 'img.omdbapi.com');
+             //  moviePoster.setAttribute('id', 'dramaPoster');
+             //  var imagePoster = document.createElement('img');
+             //  imagePoster.setAttribute('src', requestPosterOmdb);
+             //  moviePoster.setAttribute('width', '50px');
+             //  moviePoster.appendChild(imagePoster)
+             //  document.getElementById('boxOfDVDsDrama').appendChild(moviePoster);
+             //  console.log('i ' + i + 'URL ' + requestURLOmdb + ' ' + 'poster ' + requestPosterOmdb)
 
               var movieData = document.createElement('p');
-              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
+              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore + '<br>' + object1.Plot;
               document.getElementById('boxOfDVDsDrama').appendChild(movieData)
               dramaCount++;
             }
@@ -95,7 +95,7 @@ function getApiDataImdb(event) {
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsFamily').appendChild(movieName1)
               var movieData = document.createElement('p');
-              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
+              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore + '<br>' + object1.Plot;
               document.getElementById('boxOfDVDsFamily').appendChild(movieData)
               familyCount++;
             }
@@ -104,7 +104,7 @@ function getApiDataImdb(event) {
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsThriller').appendChild(movieName1)
               var movieData = document.createElement('p');
-              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
+              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore + '<br>' + object1.Plot;
               document.getElementById('boxOfDVDsThriller').appendChild(movieData)
               thrillerCount++;
             }
@@ -113,7 +113,7 @@ function getApiDataImdb(event) {
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsComedy').appendChild(movieName1)
               var movieData = document.createElement('p');
-              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
+              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore + '<br>' + object1.Plot;
               document.getElementById('boxOfDVDsComedy').appendChild(movieData)
               comedyCount++;
             }
@@ -122,7 +122,7 @@ function getApiDataImdb(event) {
               movieName1.innerHTML = object1.Title;
               document.getElementById('boxOfDVDsAction').appendChild(movieName1)
               var movieData = document.createElement('p');
-              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore;
+              movieData.innerHTML = 'Director: ' + object1.Director + ', Actors: ' + object1.Actors + ', Rating ' + object1.Metascore + '<br>' + object1.Plot;
               document.getElementById('boxOfDVDsAction').appendChild(movieData)
               thrillerCount++;
             }
